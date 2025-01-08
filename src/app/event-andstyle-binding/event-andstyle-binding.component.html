@@ -1,0 +1,8 @@
+<!-- This component is creted using angular cli command  -->
+
+<div class="maindiv">
+    <h1>{{!showcommand?'Creating Component By Using Angular cli':"Here is the command Please check"}}</h1>
+    <p class="command_text" [class.para]="!showcommand" [class.command]="showcommand" >{{para1}}</p>
+    <button (click)="showCommand()">{{!showcommand?'Show Command to generate component in angular ..':"Goback......"}}</button>
+
+</div>

@@ -1,0 +1,21 @@
+.maindiv{
+    border: 3px solid grey;
+    width: 100%;
+    margin: 2rem;
+    padding: 1rem;
+    &:hover{
+        border: 3px solid green;
+    }
+    .command_text{
+        color: green;
+    }
+    .para{
+        text-decoration: underline;
+        font-weight: 600;
+
+    }
+    .command{
+        font-weight: 800;
+        color: black;
+    }
+}
